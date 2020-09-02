@@ -2,6 +2,7 @@ exports.calculatePercentageByMake = (listingArr) => {
 
     const totalAmountOfCars = listingArr.length
 
+    //reducing by car brand and  amountOfCars
     const resultObject = listingArr.reduce(reducer, {})
 
     const resultArray = Object.keys(resultObject).map(key => {
