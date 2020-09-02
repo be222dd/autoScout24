@@ -7,4 +7,4 @@
     - npm start
 
 # Run Tests by 
-    - npm run tests
+    - npm run test
